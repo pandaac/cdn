@@ -1,0 +1,10 @@
+/node_modules
+/.storage
+/creatures
+/custom
+/defaults
+/flags
+/items
+/spells
+.DS_Store
+.npm-debug.log

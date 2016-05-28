@@ -1,0 +1,92 @@
+$brand-color: #26b399;
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .5px;
+    min-height: 100%;
+    font-size: 16px;
+    color: #555;
+}
+
+a {
+    border-bottom: 1px solid transparent;
+    transition: border .15s ease-in-out;
+    text-decoration: none;
+    color: $brand-color;
+
+    &:hover {
+        border-color: $brand-color;
+    }
+}
+
+#skeleton {
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    min-height: 100%;
+    padding: 100px;
+    display: flex;
+
+    & > .container {
+        box-sizing: border-box;
+        align-items: center;
+        display: flex;
+        width: 80%;
+
+        & > .brand {
+            & > #logo {
+                border-radius: 3px;
+                display: block;
+                height: 250px;
+                width: 250px;
+            }
+        }
+
+        & > .content {
+            box-sizing: border-box;
+            padding: 0 20px 0 35px;
+
+            h1 {
+                font-family: 'Roboto', sans-serif;
+                border-bottom: 5px solid #eee;
+                color: $brand-color;
+                padding: 0 0 10px;
+                margin: 0 0 30px;
+                font-size: 40px;
+            }
+
+            p {
+                margin-right: 50px;
+            }
+
+            code {
+                background-color: #eee;
+                word-break: break-all;
+                font-weight: normal;
+                border-radius: 3px;
+                margin: 0 50px 0 0;
+                display: block;
+                padding: 5px;
+                color: #777;
+            }
+
+            footer {
+                font-style: italic;
+                padding: 15px 0 0;
+                font-size: 12px;
+                display: block;
+                color: #777;
+            }
+        }
+    }
+}

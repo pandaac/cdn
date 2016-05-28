@@ -1,0 +1,1 @@
+!function(n,e,t){e.getElementById("site-url").innerHTML=n.location.href}(window,document);
