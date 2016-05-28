@@ -6,6 +6,7 @@ repositories=(
     "git@github.com:pandaac-cdn/spells.git"
     "git@github.com:pandaac-cdn/flags.git"
     "git@github.com:pandaac-cdn/creatures.git"
+    "git@github.com:pandaac-cdn/custom.git"
 )
 
 
