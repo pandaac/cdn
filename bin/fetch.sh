@@ -1,3 +1,5 @@
+#!/bin/bash
+
 repositories=(
     "git@github.com:pandaac-cdn/defaults.git"
     "git@github.com:pandaac-cdn/items.git"
@@ -7,7 +9,7 @@ repositories=(
 )
 
 
-basePath="$( pwd )/.."
+basePath=$1
 storagePath="${basePath}/.storage"
 
 for repository in "${repositories[@]}"; do
