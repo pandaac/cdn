@@ -1,0 +1,10 @@
+{
+    "name": "pandaac/cdn",
+    "authors": [
+        {
+            "name": "Christopher Eklund",
+            "email": "eklundchristopher@gmail.com"
+        }
+    ],
+    "require": {}
+}
