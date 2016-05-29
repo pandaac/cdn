@@ -72,7 +72,7 @@ If you're trying to link to a non-existant resource, you will be presented with 
 **Flag fallback**
 ![Flag Fallback](https://cdn.pandaac.io/flags/master/fallback)
 
-If your theme utilises a dark background however, these images may be very difficult to see. In those cases, you'll want to prefix your resource category with /w/ to get their white counterparts. E.g.
+If your theme utilises a dark background however, these images may be very difficult to see. In those cases, you'll want to prefix your resource category with `/w/` to get their white counterparts. E.g.
 ```
 https://cdn.pandaac.io/creatures/1076/giant-spider
 https://cdn.pandaac.io/items/1076/2400
