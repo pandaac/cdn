@@ -2,7 +2,7 @@
 Open Tibia resource hosting by [pandaac](https://github.com/pandaac).
 
 ## Disclaimer!
-> _As of right now, this is not an actual Content Delivery Network (CDN), and is simply hosted on one of our servers in Amsterdam, The Netherlands (EU). When [pandaac](https://github.com/pandaac) eventually reaches a point of which a stable version is imminent, we will most likely pay for a proper CDN._
+> _As of right now, this is not an actual Content Delivery Network (CDN), and is simply hosted on one of our servers in Amsterdam, The Netherlands (EU). When [pandaac](https://github.com/pandaac) eventually reaches a point of which a stable version is imminent, we are likely to pay for a proper CDN given the need for one._
 
 ## Resources
 You may freely assign any extension (e.g. `.png`, `.jpg`, `.jpeg` or `.gif`) to the resource URLs, however, they are not required and may be omitted altogether.
