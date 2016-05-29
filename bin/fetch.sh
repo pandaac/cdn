@@ -1,17 +1,18 @@
 #!/bin/bash
 
 repositories=(
-    "git@github.com:pandaac-cdn/defaults.git"
-    "git@github.com:pandaac-cdn/items.git"
-    "git@github.com:pandaac-cdn/spells.git"
-    "git@github.com:pandaac-cdn/flags.git"
     "git@github.com:pandaac-cdn/creatures.git"
     "git@github.com:pandaac-cdn/custom.git"
+    "git@github.com:pandaac-cdn/defaults.git"
+    "git@github.com:pandaac-cdn/flags.git"
+    "git@github.com:pandaac-cdn/items.git"
+    "git@github.com:pandaac-cdn/spells.git"
 )
 
 
 basePath=$1
-storagePath="${basePath}/.storage"
+basePath="${basePath}/cdn"
+storagePath="${basePath}/repositories"
 
 for repository in "${repositories[@]}"; do
     if [[ $repository =~ \:([a-zA-Z0-9_\-]+)\/([a-zA-Z0-9_\-]+)\.git ]]; then
