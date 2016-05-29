@@ -11,6 +11,12 @@ repositories=(
 
 
 basePath=$1
+
+if [ -z "$basePath" ];
+    echo "You must pass a base path as the first argument."
+    exit 1
+then
+
 basePath="${basePath}/cdn"
 storagePath="${basePath}/repositories"
 
