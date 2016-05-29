@@ -76,17 +76,17 @@ If you're trying to link to a non-existant resource, you will be presented with 
 
 If your theme utilises a dark background however, these images may be very difficult to see. In those cases, you'll want to prefix your resource category with `/w/` to get their white counterparts. E.g.
 ```
-https://cdn.pandaac.io/creatures/1076/giant-spider
-https://cdn.pandaac.io/items/1076/2400
-https://cdn.pandaac.io/spells/1076/annihilation
-https://cdn.pandaac.io/flags/master/us
+https://cdn.pandaac.io/creatures/1076/missing-creature
+https://cdn.pandaac.io/items/1076/0000
+https://cdn.pandaac.io/spells/1076/missing-spell
+https://cdn.pandaac.io/flags/master/missing-country-code
 ```
 becomes
 ```
-https://cdn.pandaac.io/w/creatures/1076/giant-spider
-https://cdn.pandaac.io/w/items/1076/2400
-https://cdn.pandaac.io/w/spells/1076/annihilation
-https://cdn.pandaac.io/w/flags/master/us
+https://cdn.pandaac.io/w/creatures/1076/missing-creature
+https://cdn.pandaac.io/w/items/1076/0000
+https://cdn.pandaac.io/w/spells/1076/missing-spell
+https://cdn.pandaac.io/w/flags/master/missing-country-code
 ```
 
 ## Contributing
