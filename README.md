@@ -90,4 +90,4 @@ https://cdn.pandaac.io/w/flags/master/missing-country-code
 ```
 
 ## Contributing
-If you would like to contribute to the CDN, please submit any issues, feature or pull requests to the appropriate repository on the **[pandaac-cdn](https://github.com/pandaac-cdn)** organisation. Any pull requests to this repository will be ignored.
+If you would like to contribute, please submit any issues, feature or pull requests to the appropriate repositories on the **[pandaac-cdn](https://github.com/pandaac-cdn)** organisation. Any pull requests to this repository will be ignored or closed unless directly aimed to fix an issue with the [https://cdn.pandaac.io](https://cdn.pandaac.io) website.
